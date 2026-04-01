@@ -62,6 +62,16 @@ Once your credentials are set up, you are ready to go:
 4.  
 ---
 
+## **📂 Repository Structure**
+
+* **`ACLED_Clean_Data.ipynb`**: The **"main brain"** of the project where data is fetched, cleaned, and verified.
+* **`.gitignore`**: The **"shield"** that prevents your private passwords and `.env` files from being leaked to GitHub.
+* **`requirements.txt`**: A simple list of the Python libraries (Pandas, Requests, etc.) required to run this project.
+* **`.env.example`**: A safe template showing you exactly how to set up your private login file.
+* **`README.md`**: The project documentation and guide (the file you are reading now).
+
+---
+
 ## **⚖️ Disclaimer**
 
 * **Data Source:** This project uses data provided by the **Armed Conflict Location & Event Data Project (ACLED)**. The accuracy and completeness of the records are subject to the reporting and verification methodologies of **ACLED**.
@@ -70,11 +80,3 @@ Once your credentials are set up, you are ready to go:
 * **Neutrality:** This pipeline is designed to be a **neutral technical tool**. It does not reflect the political views or biases of the developer.
 
 --- 
-
-## **📂 Repository Structure**
-
-* **`ACLED_Clean_Data.ipynb`**: The **"main brain"** of the project where data is fetched, cleaned, and verified.
-* **`.gitignore`**: The **"shield"** that prevents your private passwords and `.env` files from being leaked to GitHub.
-* **`requirements.txt`**: A simple list of the Python libraries (Pandas, Requests, etc.) required to run this project.
-* **`.env.example`**: A safe template showing you exactly how to set up your private login file.
-* **`README.md`**: The project documentation and guide (the file you are reading now).
