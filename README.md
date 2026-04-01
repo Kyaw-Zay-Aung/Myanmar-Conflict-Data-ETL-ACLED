@@ -19,6 +19,7 @@ As **ACLED** maintains a strict verification process, there is a **one-year data
 * **🧹 High-Quality Cleaning:** Automatically fixes messy dates and fills in missing information to make the data ready for analysis.
 * **🔍 Data Verification:** Includes built-in "Checks" to ensure there are no errors, duplicates, or wrong data types before you use it.
 * **🎯 Specialized Filters:** Easily identifies specific events, such as those involving high-profile actors or specific social groups.
+* * **📥 Automatic Export:** Once the cleaning is complete, the script automatically saves and downloads the final, verified **CSV file** to your local machine or Colab storage, making it ready for immediate use.
 
 ---
 ## **🛠️ How it Works (Simple Process)**
@@ -58,6 +59,15 @@ Once your credentials are set up, you are ready to go:
 1.  **Open Notebook:** Open the `ACLED_Clean_Data.ipynb` file (using VS Code, Jupyter, or Google Colab).
 2.  **Execute:** Click the **"Run All"** button at the top of the editor.
 3.  **Finish:** The script will handle the rest and notify you as soon as your final **CSV file** is ready for use.
+4.  
+---
+
+## **⚖️ Disclaimer**
+
+* **Data Source:** This project uses data provided by the **Armed Conflict Location & Event Data Project (ACLED)**. The accuracy and completeness of the records are subject to the reporting and verification methodologies of **ACLED**.
+* **Non-Affiliation:** This project is an independent tool for data extraction and cleaning. It is **not officially affiliated with, endorsed by, or sponsored by ACLED**.
+* **Use at Your Own Risk:** The processed data is provided for **educational and research purposes only**. The author of this project is not responsible for any decisions, interpretations, or consequences resulting from the use of the generated datasets.
+* **Neutrality:** This pipeline is designed to be a **neutral technical tool**. It does not reflect the political views or biases of the developer.
 
 --- 
 
